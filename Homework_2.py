@@ -55,7 +55,7 @@ for fname in images:
         cv2.imwrite(os.path.join(output_folder, f"{name}_corners.jpg"), image) # تخزين الصور بعد ايجاد الزوايا
 
 # بداية المعايرة
-ret, K, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, image_size, None, None)
+ret, K, dist, rvecs, tvecs = cv2.calibrateCamera(objectpoints, imagepoints, image_size, None, None)
 
 # عرض نتائج المعايرة
 print("\n=== Calibration Results ===")
