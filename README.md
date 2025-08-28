@@ -24,6 +24,22 @@ Open your command-line again" and do the next:
 3. Run the code  
    Camera_Calibration.py
 
+### Usage example
+
+This project does one thing only: **calibrating a camera using a chessboard pattern**. Here’s how to use it:
+
+**Step 1: Take photos**  
+Capture multiple photos of a real chessboard from different angles. The more images you take, the more accurate the calibration will be. Typically, 10–15 clean images are enough.
+
+**Step 2: Place files**  
+Put all the photos in the same folder as the code. When you run the program, it will process each image and return the same set of photos with the **inner squares marked and detected**.
+
+**Step 3: Run the code**  
+Execute the script:
+```bash
+python Camera_Calibration.py
+
+
 
 
 
