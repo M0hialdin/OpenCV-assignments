@@ -11,17 +11,19 @@ This application only goal is to calibrate the camera using chess board inner sq
 
 ### Installation instructions
 
-first you have to install OpenCV:
-  Open youe Command line as addminstreater and type "pip install opencv-python", After that we go to run this applaiction...
-  The easiest way is just to have/Install Visul Stuedio code at your machine and then download and open this project at your VScode and run it from there! 
-BUt here it's the easiest way for a differnt type of people:
-<Open your command-line again" and do the next:
-1. clone the repo:
-   git clone https://github.com/M0hialdin/OpenCV-assignments.git
-2. go inside the folder where the code is:
-   cd OpenCV-assignments
-3. Run the code
+first you have to install OpenCV:  
+Open your Command line as Administrator and type "pip install opencv-python", After that we are going to run this application...  
+The easiest way is just to have/Install Visual Studio Code at your machine and then download and open this project at your VSCode and run it from there!  
+
+BUt here it's the easiest way for a different type of people:  
+Open your command-line again" and do the next:  
+1. clone the repo:  
+   git clone https://github.com/M0hialdin/OpenCV-assignments.git  
+2. go inside the folder where the code is:  
+   cd OpenCV-assignments  
+3. Run the code  
    Camera_Calibration.py
+
 
 
 
